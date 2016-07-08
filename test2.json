@@ -1,0 +1,75 @@
+{  
+	"orientation": "VERTICAL",
+	"children": [{  
+		"componentConfig": {  
+			"slotId": 1,  
+			"dataProviderId": "djtop",
+			"design":{
+				"width": "100%",
+				"background-color": "yellow",
+				"height": "300px"
+			},
+			"widgetTypes":[
+				{
+					"dataProviderWidgetId":"DEAL_CARD",
+					"clientWidgetId":"OMU"
+				},
+              {
+                "dataProviderWidgetId":"PRODUCT_SERVICE_CARD",
+                "clientWidgetId":"SMU"
+              },
+              {
+                "dataProviderWidgetId":"PRODUCT_SERVICE_CARD",
+                "clientWidgetId":"SMU"
+              }
+			],
+			"slotParams":{
+				"theme":"bbd",
+				"store":"tyy/4io"
+			}
+		}  
+	}, {
+		"orientation": "HORIZONTAL",
+		"children": [{
+			"componentConfig": {
+				"slotId": 2,
+				"dataProviderId": "mapileft",
+				"design":{
+					"width": "50%",
+					"background-color": "skyblue",
+					"height": "250px"
+				},
+				"widgetTypes":[
+					{
+						"dataProviderWidgetId":"PRODUCT_SERVICE_CARD",
+						"clientWidgetId":"SMU"
+					}
+				],
+				"slotParams":{
+					"theme":"bbd",
+					"store":"tyy/2io"
+				}
+			}
+		}, {
+			"componentConfig": {
+				"slotId": 3,
+				"dataProviderId": "djright",
+				"design":{
+					"width": "50%",
+					"background-color": "grey",
+					"height": "250px"
+				},
+				"widgetTypes":[
+					{
+						"dataProviderWidgetId":"PRODUCT_CARD",
+						"clientWidgetId":"PMU"
+					}
+				],
+				"slotParams":{
+					"theme":"home",
+					"store":"tyy/3io"
+				}
+			}
+		}]
+	}]
+}
