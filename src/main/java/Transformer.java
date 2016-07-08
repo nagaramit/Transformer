@@ -21,9 +21,9 @@ public class Transformer {
             File result_html = new File(RESULT_HTML);
             File result_json = new File(RESULT_JSON);
 
-//            JSONtoUI.toHTML(json, result_html);
+            JSONtoUI.toHTML(json, result_html);
 
-            UItoJSON.toJSON(html, result_json);
+            // UItoJSON.toJSON(html, result_json);
 
         } catch (Exception e) {
             e.printStackTrace();
